@@ -9,6 +9,9 @@
 [context."master".environment]
   REACT_APP_CHAIN_ID = "5"
   REACT_APP_ENABLE_HISTORY = "true"
+  REACT_APP_GOERLI_JSONRPC = "https://ethereum-goerli-rpc.allthatnode.com"
+  REACT_APP_GOERLI_ETHERSCAN = "https://goerli.etherscan.io"
+  REACT_APP_GOERLI_WSRPC= "wss://goerli-light.eth.linkpool.io/ws"
 
 [context.deploy-preview.environment]
   REACT_APP_CHAIN_ID = "1"
